@@ -28,17 +28,24 @@
         width: 25%;
         border-right: solid 1px;
         border-color: #DDDDDD;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
     }
     .amenities {
         height: 100%;
         width: 25%;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     h3 {
         font-weight: 600;
+        margin: 0 0 2px 20px;
     }
     h4 {
         font-weight: 400;
         font-size: 14px;
+        margin: 2px 0 0 20px;
+
     }
